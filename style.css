@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif;
+} 
+.section1{
+    background: linear-gradient(5deg,rgb(131, 94, 25),rgb(190, 127, 10));
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+    
+}
+.nav{
+    display: flex;
+    gap: 15px;
+    padding-left: 50%;
+    margin: 30px;
+    color: black;
+    
+}
+.btn1{
+    margin: 30px;
+}
+.section2{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+ 
+    .topright{
+        width: 60%;
+        height: 100vh;
+        background: linear-gradient(160deg, #0093E9 0%, #80D0C7 60%);
+    
+
+    }
+
+    h1{
+        color:rgb(79, 34, 153) ;
+        font-size: 3rem;
+        padding: 30px;
+        
+    }
+    p{
+        color: rgb(137, 26, 137);
+        font-size: 1.5rem;
+        padding: 20px;
+
+    }
+    .btn-one{
+        padding-left: 30px;
+        
+        
+    }
+    
+    
+    
+    .topleft{
+        width: 40%;
+        height: 100vh;
+        padding-left: 110%;
+        border-radius: 50%;
+        
+
+    }
+   
+   
+}
+.section3{
+    width: 100%;
+    height: 50px;
+    .icons{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        height: 320px;
+        background-color: rgba(0, 0, 0, 0.215);
+        cursor: pointer;
+        
+       
+        
+    }
+    .icons .fa-brands{
+        color: #5b2d51;
+        font-size: 1.7rem;
+        
+    }
+    
+}
+.icons .fa-brands:hover{
+    cursor:pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-text-fill-color: transparent;
+}
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5dee81;
+}
+button:nth-child(2):hover{
+    background: #23c178;
+    color:#c91a1a;
+}
